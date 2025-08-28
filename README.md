@@ -1,16 +1,44 @@
-# flutter_webview
+🌐 Flutter WebView App
 
-A new Flutter project.
+A cross-platform Flutter WebView application that loads any website inside a mobile app.
+Features a custom splash screen and logo, ready for Android & iOS publishing.
 
-## Getting Started
+🚀 Features
+📱 Android & iOS support
+🌐 Load any website inside the app using WebView
+⚡ Fast, lightweight, and responsive
+🎨 Custom splash screen with logo
+🔒 JavaScript enabled
+✅ Easy to configure for any website
+	
+🛠️ Installation
 
-This project is a starting point for a Flutter application.
+Clone the repository:
+git clone https://github.com/yourusername/flutter_webview_app.git
+cd flutter_webview_app
 
-A few resources to get you started if this is your first Flutter project:
+Install dependencies:
+flutter pub get
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Run the app:
+flutter run
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+⚙️ Configuration
+Replace the default URL in lib/main.dart with your website:
+..loadRequest(Uri.parse("https://your-website.com"))
+
+Update the splash logo in assets/images/logo.png and run:
+flutter pub run flutter_native_splash:create
+
+📦 Dependencies
+webview_flutter
+flutter_native_splash
+
+📱 APK Download
+ https://drive.google.com/file/d/1PyG7iIFUoki5Y60DUpmJt8cnW6-PNT4W/view?usp=drive_link
+
+👩‍💻 Author
+Ambreen Mushtaq
+🌐 Portfolio: https://devkins-hub.vercel.app/
+💼 Upwork: https://www.upwork.com/freelancers/
+📧 Email: ambreen.dev@gmail.com
